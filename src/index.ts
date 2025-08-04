@@ -27,7 +27,7 @@ app.use(cors({
 app.use(express.json());
 
 app.get("/", (_req, res) => {
-  res.send("✅ Servidor Express funcionando correctamente");
+  res.send("✅ Servidor Express funcionando correctamente.");
 });
 
 app.get("/api/v1/credentials", (req, res) => {
