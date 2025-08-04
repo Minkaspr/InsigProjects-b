@@ -1,3 +1,13 @@
-node_modules
+# Dependencias
+node_modules/
+
+# Variables de entorno
 .env
+
+# Logs
 *.log
+logs/
+
+# Archivos de compilación TypeScript
+dist/
+build/
